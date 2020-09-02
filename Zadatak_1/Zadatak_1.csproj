@@ -95,28 +95,30 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Resource Include="images\car0.png" />
+    <Resource Include="Files\IgraPamcenja.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\car1.png" />
-    <Resource Include="images\car10.png" />
-    <Resource Include="images\car11.png" />
-    <Resource Include="images\car12.png" />
-    <Resource Include="images\car13.png" />
-    <Resource Include="images\car14.png" />
-    <Resource Include="images\car15.png" />
-    <Resource Include="images\car2.png" />
-    <Resource Include="images\car3.png" />
-    <Resource Include="images\car4.png" />
-    <Resource Include="images\car5.png" />
-    <Resource Include="images\car6.png" />
-    <Resource Include="images\car7.png" />
-    <Resource Include="images\car8.png" />
-    <Resource Include="images\car9.png" />
-    <Resource Include="images\cleared.png" />
-    <Resource Include="images\hidden.png" />
+    <Resource Include="Images\car0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\car1.png" />
+    <Resource Include="Images\car10.png" />
+    <Resource Include="Images\car11.png" />
+    <Resource Include="Images\car12.png" />
+    <Resource Include="Images\car13.png" />
+    <Resource Include="Images\car14.png" />
+    <Resource Include="Images\car15.png" />
+    <Resource Include="Images\car2.png" />
+    <Resource Include="Images\car3.png" />
+    <Resource Include="Images\car4.png" />
+    <Resource Include="Images\car5.png" />
+    <Resource Include="Images\car6.png" />
+    <Resource Include="Images\car7.png" />
+    <Resource Include="Images\car8.png" />
+    <Resource Include="Images\car9.png" />
+    <Resource Include="Images\cleared.png" />
+    <Resource Include="Images\hidden.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

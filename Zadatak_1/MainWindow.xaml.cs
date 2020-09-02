@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,9 +64,13 @@ namespace Zadatak_1
             if (numCleared == 8)
             {
                 clockTimer.Stop();
-                MessageBox.Show(String.Format("Congratulations! You Have won the game!\n\nElapsed Time: {0} seconds", 61 - (int)ElapsedTime.Content));
+                int TotalTime = 61 - (int)ElapsedTime.Content;
+                MessageBox.Show(String.Format("Congratulations! You Have won the game!\n\nElapsed Time: {0} seconds", TotalTime));
                 timer = 61;
                 clockTimer.Stop();
+
+                string createText = DateTime.Now + ", Total time: " + TotalTime.ToString() + " seconds" + Environment.NewLine;
+                File.AppendAllText(@"..\\..\Files\IgraPamcenja.txt", createText);
 
                 if (MessageBox.Show("Do you want to play again?", "Confirmation", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
                 {
